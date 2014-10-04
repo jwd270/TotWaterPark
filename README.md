@@ -16,5 +16,5 @@ To flash to the microcontroller edit the following line in the make file to matc
 ```
 PROGRAMMER = -c arduino -P /dev/ttyUSB0 -b57600
 ```
-In this example the device is using the arduino bootloader and is connected to a USB to serial converter at `/dev/ttyUSB0`.  Once you have updated the make file type `make flash`
+In this example the device is using the arduino bootloader and is connected to a USB to serial converter at `/dev/ttyUSB0`.  Once you have updated the make file use the command `make flash` to flash the microcontroller.
 
