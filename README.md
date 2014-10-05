@@ -11,7 +11,7 @@ miniature water park!
 ##Compiling:
 The source can be compiled using the make utility.  Enter the source directory and type `make`.
 
-##Flashing:
+##Programming:
 To flash to the micro-controller edit the following line in the make file to match your programming device, it's path, and it's baud rate.
 ```
 PROGRAMMER = -c arduino -P /dev/ttyUSB0 -b57600
