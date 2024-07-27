@@ -6,14 +6,14 @@ miniature water park!
 
 The circuit diagram and PCB layout files are comming.
 
-###Features:
+### Features:
 * Timer to turn pump off after two minutes
 * Low battery lockout to prevent over discharge of battery
 
-###Compiling:
+### Cmpiling:
 The source can be compiled using the make utility.  Enter the source directory and use the command `make` to build the program.
 
-###Programming:
+### Programming:
 To flash to the micro-controller edit the following line in the make file to match your programming device, it's path, and it's baud rate.
 ```
 PROGRAMMER = -c arduino -P /dev/ttyUSB0 -b57600
